@@ -35,3 +35,7 @@ protocol Vehicle: Brakeable, Drivable {
 protocol Car: Brakeable, Drivable {
     var numberOfDoors: Int { get }
 }
+
+func registerForRace(vehicle:protocol<Drivable, Brakeable>) {
+    
+}
