@@ -37,5 +37,8 @@ protocol Car: Brakeable, Drivable {
 }
 
 func registerForRace(vehicle:protocol<Drivable, Brakeable>) {
-    
+    println("Start race")
 }
+
+import UIKit
+let someView = UIView()
